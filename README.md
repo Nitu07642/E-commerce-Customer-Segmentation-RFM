@@ -1,13 +1,10 @@
-# E-commerce-Customer-Segmentation-RFM
-![Uploading project_banner.png.png…]()
-
----
-End-to-end data pipeline project using Advanced Excel for data cleaning/EDA and Power BI for dynamic RFM customer segmentation dashboard.
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=1a365d&height=180&section=header&text=E-commerce%20RFM%20Analytics&fontSize=35&fontColor=ffffff&animation=fadeIn" width="100%" />
-</p>
 
 # 📊 E-commerce Customer Segmentation & Performance Analysis (RFM Framework)
+End-to-end data pipeline project using Advanced Excel for data cleaning/EDA and Power BI for dynamic RFM customer segmentation dashboard.
+<p align="center">
+  <img src="project_banner.png.png" width="100%" />
+</p>
+
 
 ## 🎯 Executive Summary
 In the retail sector, generic marketing campaigns result in low conversion rates and high customer acquisition costs. This project implements an **end-to-end data analytics pipeline** on a massive transactional dataset containing over **540,000+ rows**. 
