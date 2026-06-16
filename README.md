@@ -29,7 +29,7 @@ A dataset with over half a million records naturally comes with real-world anoma
 * **Prevented Critical Data Loss:** Discovered significant gaps in `CustomerID` missing records. Instead of dropping these rows (which would corrupt structural billing and total sales data), I applied **Data Imputation** using a structural dummy identifier (`99999`) to preserve transaction volumes.
 * **Transaction Isolation:** Programmatically handled structural issues and isolated over **10,000+ cancellation logs** (returns) to avoid artificial revenue inflation.
 * **Feature Engineering:** Formulated the primary metric column `Total_Amount` at row-level by executing:
-  **Total_Amount = Quantity × UnitPrice**
+* **Total_Amount = Quantity × UnitPrice**
 
 ### 📈 Phase 2: Core Business Insights Generation (Excel EDA)
 Using multi-layered Pivot Tables, I uncovered two fundamental operational insights prior to full-scale visualization:
