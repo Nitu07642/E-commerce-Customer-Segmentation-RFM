@@ -21,6 +21,14 @@ The e-commerce platform was suffering from a stagnant customer retention rate an
 * **Severe Data Integrity Issues:** Missing data fields (such as empty `CustomerID` tags) threatened to completely invalidate transaction tracking. Simply dropping these records would result in a massive loss of financial data history and miscalculate true store velocity.
 * **Revenue Distortion:** Product cancellation logs were blended into standard sales pipelines, creating artificially inflated revenue numbers and incorrect stock projections.
 
+---
+## 💡 Key Business Visualizations Included
+
+### 🖼️ Interactive Dashboard Interface
+Below is a high-level preview of the dynamic interface optimized for stakeholder reviews:
+
+![Dashboard Screenshot](RFM_Dashboard_image.png)
+
 ### 💡 My Analytics-Driven Solution
 I constructed a structured diagnostic framework to bridge data gaps and unlock structural retention metrics:
 * **Strategic Data Imputation:** Implemented a controlled profiling rule in Excel, allocating a structural dummy identifier (`99999`) to retain customer transactional volume footprints without corrupting financial tracking.
@@ -91,15 +99,6 @@ To power the dynamic dashboard and enable granular RFM scoring, I architected se
   * *Champions:* High Recency, High Frequency, High Monetary.
   * *Loyal Customers:* Consistent Frequency and strong Monetary footprint.
   * *At Risk:* High days since last purchase (Low Recency), previously high transaction value.
-
----
-
-## 💡 Key Business Visualizations Included
-
-### 🖼️ Interactive Dashboard Interface
-Below is a high-level preview of the dynamic interface optimized for stakeholder reviews:
-
-![Dashboard Screenshot](RFM_Dashboard_image.png)
 
 ---
 
