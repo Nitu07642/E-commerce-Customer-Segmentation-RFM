@@ -13,6 +13,28 @@ By establishing a robust data-cleaning workflow in **Advanced Excel** and archit
 
 ---
 
+## 🔍 Core Business Problem, Solution & Strategic Recommendations
+
+### 🛑 The Business Problem
+The e-commerce platform was suffering from a stagnant customer retention rate and untargeted marketing spend. The primary challenges were:
+* **Blind Marketing Spend:** Marketing campaigns were generic (one-size-fits-all), leading to high customer acquisition costs (CAC) and zero personalization for VIP customers.
+* **Severe Data Integrity Issues:** Missing data fields (such as empty `CustomerID` tags) threatened to completely invalidate transaction tracking. Simply dropping these records would result in a massive loss of financial data history and miscalculate true store velocity.
+* **Revenue Distortion:** Product cancellation logs were blended into standard sales pipelines, creating artificially inflated revenue numbers and incorrect stock projections.
+
+### 💡 My Analytics-Driven Solution
+I constructed a structured diagnostic framework to bridge data gaps and unlock structural retention metrics:
+* **Strategic Data Imputation:** Implemented a controlled profiling rule in Excel, allocating a structural dummy identifier (`99999`) to retain customer transactional volume footprints without corrupting financial tracking.
+* **Cancellation Isolation:** Formulated an extraction query to programmatically segregate 10,000+ return logs, optimizing the tracking of clean, non-inflated net profits.
+* **Behavioral Segmentation Engine:** Migrated the cleaned relational dataset into Power BI and engineered a dynamic RFM (Recency, Frequency, Monetary) system. This engine automatically clusters half a million rows of behavior into clear, distinct customer tiers.
+
+### 🎯 Strategic Advice & Recommendations Provided to Stakeholders
+Based on the dashboard insights, I delivered three high-impact recommendations to the business teams to drive profitability:
+1. **VIP Loyalty Lock (Targeting 'Champions'):** Allocate 40% of the retention ad-spend exclusively toward the *Champions* and *Loyal Customers* cohorts. Introduce early access sales and milestone reward points to insulate these high-monetary users from competitor poaching.
+2. **Automated Win-Back Triggers (Targeting 'At Risk' / 'Slipping' Users):** Deploy automated email marketing triggers within 7 days of a user dropping into the *At Risk* segment. Offer high-incentive dynamic discount codes (e.g., "We Miss You - 15% Off Your Favorites") to reactivate their high historical monetary value.
+3. **Supply Chain Calibration for High-Volume Markets:** Focus inventory warehousing and shipping logistical priority heavily inside the **United Kingdom**, as my Pivot Table exploration proved it controls over 90% of global product demand volume. Ensure top volume drivers like "REGENCY CAKESTAND 3 TIER" maintain a 100% in-stock rate during peak quarters.
+
+---
+
 ## 🛠️ Tech Stack & Domain Expertise
 * **Exploratory Data Analysis & ETL:** Advanced Excel (Power Query concepts, Logic Functions, Advanced Filters)
 * **Statistical Insights:** Pivot Tables & Feature Engineering
